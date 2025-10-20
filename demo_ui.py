@@ -4,7 +4,7 @@ import json
 
 
 # Backend Server ADdress
-API_BASE_URL = "http://127.0.0.1:8000"
+API_BASE_URL = "https://restaurant-chatbot-demo.onrender.com"
 
 # LEAD CAPTURE LOGIC
 def save_lead(name: str, phone: str, initial_message: str) -> bool:
